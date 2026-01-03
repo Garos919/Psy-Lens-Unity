@@ -1,0 +1,20 @@
+{
+    "asset": "4c44cb2142cc4044587df2a3d7ecc94c",
+    "fileName": "019a3cf0-4670-7aa7-aaee-f2eb40a75d89.png",
+    "prompt": "texture for secretary model",
+    "negativePrompt": "Low-poly PS1 survival-horror female — single 256×256 diffuse atlas only (no normal/metal/rough).\nBrown bob hair; pale face with minimal shading, dark simple eyes, hint of lips.\nLong-sleeve knit sweater in muted grey/earth; slight grime at cuffs/hem; soft folds only.\nFaded blue jeans: low-sat wash, gentle whiskers, worn knees, hinted seams/pockets (no crisp stitching).\nBrown ankle boots: simple toe and sole band.\nOverall: dithered shading, chunky pixels, no logos, no specular, consistent UV density, nearest-neighbor feel.",
+    "model": "5b5b2af1-6ea4-4266-b087-cc9f3bf4f450",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "fe39a7b242b03212ad1c3aa8154672cc",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0
+}

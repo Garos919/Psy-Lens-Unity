@@ -1,0 +1,1321 @@
+└── Assets/
+    ├── Animations.meta
+    ├── Art.meta
+    ├── Characters.meta
+    ├── InputSystem_Actions.inputactions
+    ├── InputSystem_Actions.inputactions.meta
+    ├── Models.meta
+    ├── New Terrain.asset
+    ├── New Terrain.asset.meta
+    ├── Prefabs.meta
+    ├── Scenes.meta
+    ├── Scripts.meta
+    ├── Settings.meta
+    ├── Shaders.meta
+    ├── Sounds.meta
+    ├── TerrainData_1bc7f2f7-2298-42d5-aa95-77f35a3b2127.asset
+    ├── TerrainData_1bc7f2f7-2298-42d5-aa95-77f35a3b2127.asset.meta
+    ├── TextMesh Pro.meta
+    ├── Textures.meta
+    ├── UI.meta
+    ├── _Recovery.meta
+    ├── _Recovery/
+    │   ├── 0 (1).unity
+    │   ├── 0 (1).unity.meta
+    │   ├── 0.unity
+    │   └── 0.unity.meta
+    ├── UI/
+    │   ├── InventoryUI.cs
+    │   └── InventoryUI.cs.meta
+    ├── TextMesh Pro/
+    │   ├── Examples & Extras.meta
+    │   ├── Fonts.meta
+    │   ├── Resources.meta
+    │   ├── Shaders.meta
+    │   ├── Sprites.meta
+    │   ├── Sprites/
+    │   │   ├── EmojiOne Attribution.txt
+    │   │   ├── EmojiOne Attribution.txt.meta
+    │   │   ├── EmojiOne.json
+    │   │   ├── EmojiOne.json.meta
+    │   │   ├── EmojiOne.png
+    │   │   └── EmojiOne.png.meta
+    │   ├── Shaders/
+    │   │   ├── SDFFunctions.hlsl
+    │   │   ├── SDFFunctions.hlsl.meta
+    │   │   ├── TMPro.cginc
+    │   │   ├── TMPro.cginc.meta
+    │   │   ├── TMPro_Mobile.cginc
+    │   │   ├── TMPro_Mobile.cginc.meta
+    │   │   ├── TMPro_Properties.cginc
+    │   │   ├── TMPro_Properties.cginc.meta
+    │   │   ├── TMPro_Surface.cginc
+    │   │   ├── TMPro_Surface.cginc.meta
+    │   │   ├── TMP_Bitmap-Custom-Atlas.shader
+    │   │   ├── TMP_Bitmap-Custom-Atlas.shader.meta
+    │   │   ├── TMP_Bitmap-Mobile.shader
+    │   │   ├── TMP_Bitmap-Mobile.shader.meta
+    │   │   ├── TMP_Bitmap.shader
+    │   │   ├── TMP_Bitmap.shader.meta
+    │   │   ├── TMP_SDF Overlay.shader
+    │   │   ├── TMP_SDF Overlay.shader.meta
+    │   │   ├── TMP_SDF SSD.shader
+    │   │   ├── TMP_SDF SSD.shader.meta
+    │   │   ├── TMP_SDF-HDRP LIT.shadergraph
+    │   │   ├── TMP_SDF-HDRP LIT.shadergraph.meta
+    │   │   ├── TMP_SDF-HDRP UNLIT.shadergraph
+    │   │   ├── TMP_SDF-HDRP UNLIT.shadergraph.meta
+    │   │   ├── TMP_SDF-Mobile Masking.shader
+    │   │   ├── TMP_SDF-Mobile Masking.shader.meta
+    │   │   ├── TMP_SDF-Mobile Overlay.shader
+    │   │   ├── TMP_SDF-Mobile Overlay.shader.meta
+    │   │   ├── TMP_SDF-Mobile SSD.shader
+    │   │   ├── TMP_SDF-Mobile SSD.shader.meta
+    │   │   ├── TMP_SDF-Mobile-2-Pass.shader
+    │   │   ├── TMP_SDF-Mobile-2-Pass.shader.meta
+    │   │   ├── TMP_SDF-Mobile.shader
+    │   │   ├── TMP_SDF-Mobile.shader.meta
+    │   │   ├── TMP_SDF-Surface-Mobile.shader
+    │   │   ├── TMP_SDF-Surface-Mobile.shader.meta
+    │   │   ├── TMP_SDF-Surface.shader
+    │   │   ├── TMP_SDF-Surface.shader.meta
+    │   │   ├── TMP_SDF-URP Lit.shadergraph
+    │   │   ├── TMP_SDF-URP Lit.shadergraph.meta
+    │   │   ├── TMP_SDF-URP Unlit.shadergraph
+    │   │   ├── TMP_SDF-URP Unlit.shadergraph.meta
+    │   │   ├── TMP_SDF.shader
+    │   │   ├── TMP_SDF.shader.meta
+    │   │   ├── TMP_Sprite.shader
+    │   │   └── TMP_Sprite.shader.meta
+    │   ├── Resources/
+    │   │   ├── Fonts & Materials.meta
+    │   │   ├── LineBreaking Following Characters.txt
+    │   │   ├── LineBreaking Following Characters.txt.meta
+    │   │   ├── LineBreaking Leading Characters.txt
+    │   │   ├── LineBreaking Leading Characters.txt.meta
+    │   │   ├── Sprite Assets.meta
+    │   │   ├── Style Sheets.meta
+    │   │   ├── TMP Settings.asset
+    │   │   ├── TMP Settings.asset.meta
+    │   │   ├── Style Sheets/
+    │   │   │   ├── Default Style Sheet.asset
+    │   │   │   └── Default Style Sheet.asset.meta
+    │   │   ├── Sprite Assets/
+    │   │   │   ├── EmojiOne.asset
+    │   │   │   └── EmojiOne.asset.meta
+    │   │   └── Fonts & Materials/
+    │   │       ├── LiberationSans SDF - Drop Shadow.mat
+    │   │       ├── LiberationSans SDF - Drop Shadow.mat.meta
+    │   │       ├── LiberationSans SDF - Fallback.asset
+    │   │       ├── LiberationSans SDF - Fallback.asset.meta
+    │   │       ├── LiberationSans SDF - Outline.mat
+    │   │       ├── LiberationSans SDF - Outline.mat.meta
+    │   │       ├── LiberationSans SDF.asset
+    │   │       └── LiberationSans SDF.asset.meta
+    │   ├── Fonts/
+    │   │   ├── LiberationSans - OFL.txt
+    │   │   ├── LiberationSans - OFL.txt.meta
+    │   │   ├── LiberationSans.ttf
+    │   │   └── LiberationSans.ttf.meta
+    │   └── Examples & Extras/
+    │       ├── Fonts.meta
+    │       ├── Materials.meta
+    │       ├── Prefabs.meta
+    │       ├── Resources.meta
+    │       ├── Scenes.meta
+    │       ├── Scripts.meta
+    │       ├── Sprites.meta
+    │       ├── Textures.meta
+    │       ├── Textures/
+    │       │   ├── Brushed Metal 3.jpg
+    │       │   ├── Brushed Metal 3.jpg.meta
+    │       │   ├── Floor Cement.jpg
+    │       │   ├── Floor Cement.jpg.meta
+    │       │   ├── Floor Tiles 1 - diffuse.jpg
+    │       │   ├── Floor Tiles 1 - diffuse.jpg.meta
+    │       │   ├── Fruit Jelly (B&W).jpg
+    │       │   ├── Fruit Jelly (B&W).jpg.meta
+    │       │   ├── Gradient Diagonal (Color).jpg
+    │       │   ├── Gradient Diagonal (Color).jpg.meta
+    │       │   ├── Gradient Horizontal (Color).jpg
+    │       │   ├── Gradient Horizontal (Color).jpg.meta
+    │       │   ├── Gradient Vertical (Color).jpg
+    │       │   ├── Gradient Vertical (Color).jpg.meta
+    │       │   ├── Mask Zig-n-Zag.psd
+    │       │   ├── Mask Zig-n-Zag.psd.meta
+    │       │   ├── Small Crate_diffuse.jpg
+    │       │   ├── Small Crate_diffuse.jpg.meta
+    │       │   ├── Small Crate_normal.jpg
+    │       │   ├── Small Crate_normal.jpg.meta
+    │       │   ├── Sunny Days - Seamless.jpg
+    │       │   ├── Sunny Days - Seamless.jpg.meta
+    │       │   ├── Text Overflow - Linked Text Image 1.png
+    │       │   ├── Text Overflow - Linked Text Image 1.png.meta
+    │       │   ├── Text Overflow - Linked Text UI Screenshot.png
+    │       │   ├── Text Overflow - Linked Text UI Screenshot.png.meta
+    │       │   ├── Wipe Pattern - Circle.psd
+    │       │   ├── Wipe Pattern - Circle.psd.meta
+    │       │   ├── Wipe Pattern - Diagonal.psd
+    │       │   ├── Wipe Pattern - Diagonal.psd.meta
+    │       │   ├── Wipe Pattern - Radial Double.psd
+    │       │   ├── Wipe Pattern - Radial Double.psd.meta
+    │       │   ├── Wipe Pattern - Radial Quad.psd
+    │       │   └── Wipe Pattern - Radial Quad.psd.meta
+    │       ├── Sprites/
+    │       │   ├── Default Sprites.png
+    │       │   ├── Default Sprites.png.meta
+    │       │   ├── DropCap Numbers.psd
+    │       │   └── DropCap Numbers.psd.meta
+    │       ├── Scripts/
+    │       │   ├── Benchmark01.cs
+    │       │   ├── Benchmark01.cs.meta
+    │       │   ├── Benchmark01_UGUI.cs
+    │       │   ├── Benchmark01_UGUI.cs.meta
+    │       │   ├── Benchmark02.cs
+    │       │   ├── Benchmark02.cs.meta
+    │       │   ├── Benchmark03.cs
+    │       │   ├── Benchmark03.cs.meta
+    │       │   ├── Benchmark04.cs
+    │       │   ├── Benchmark04.cs.meta
+    │       │   ├── CameraController.cs
+    │       │   ├── CameraController.cs.meta
+    │       │   ├── ChatController.cs
+    │       │   ├── ChatController.cs.meta
+    │       │   ├── DropdownSample.cs
+    │       │   ├── DropdownSample.cs.meta
+    │       │   ├── EnvMapAnimator.cs
+    │       │   ├── EnvMapAnimator.cs.meta
+    │       │   ├── ObjectSpin.cs
+    │       │   ├── ObjectSpin.cs.meta
+    │       │   ├── ShaderPropAnimator.cs
+    │       │   ├── ShaderPropAnimator.cs.meta
+    │       │   ├── SimpleScript.cs
+    │       │   ├── SimpleScript.cs.meta
+    │       │   ├── SkewTextExample.cs
+    │       │   ├── SkewTextExample.cs.meta
+    │       │   ├── TeleType.cs
+    │       │   ├── TeleType.cs.meta
+    │       │   ├── TextConsoleSimulator.cs
+    │       │   ├── TextConsoleSimulator.cs.meta
+    │       │   ├── TextMeshProFloatingText.cs
+    │       │   ├── TextMeshProFloatingText.cs.meta
+    │       │   ├── TextMeshSpawner.cs
+    │       │   ├── TextMeshSpawner.cs.meta
+    │       │   ├── TMPro_InstructionOverlay.cs
+    │       │   ├── TMPro_InstructionOverlay.cs.meta
+    │       │   ├── TMP_DigitValidator.cs
+    │       │   ├── TMP_DigitValidator.cs.meta
+    │       │   ├── TMP_ExampleScript_01.cs
+    │       │   ├── TMP_ExampleScript_01.cs.meta
+    │       │   ├── TMP_FrameRateCounter.cs
+    │       │   ├── TMP_FrameRateCounter.cs.meta
+    │       │   ├── TMP_PhoneNumberValidator.cs
+    │       │   ├── TMP_PhoneNumberValidator.cs.meta
+    │       │   ├── TMP_TextEventCheck.cs
+    │       │   ├── TMP_TextEventCheck.cs.meta
+    │       │   ├── TMP_TextEventHandler.cs
+    │       │   ├── TMP_TextEventHandler.cs.meta
+    │       │   ├── TMP_TextInfoDebugTool.cs
+    │       │   ├── TMP_TextInfoDebugTool.cs.meta
+    │       │   ├── TMP_TextSelector_A.cs
+    │       │   ├── TMP_TextSelector_A.cs.meta
+    │       │   ├── TMP_TextSelector_B.cs
+    │       │   ├── TMP_TextSelector_B.cs.meta
+    │       │   ├── TMP_UiFrameRateCounter.cs
+    │       │   ├── TMP_UiFrameRateCounter.cs.meta
+    │       │   ├── VertexColorCycler.cs
+    │       │   ├── VertexColorCycler.cs.meta
+    │       │   ├── VertexJitter.cs
+    │       │   ├── VertexJitter.cs.meta
+    │       │   ├── VertexShakeA.cs
+    │       │   ├── VertexShakeA.cs.meta
+    │       │   ├── VertexShakeB.cs
+    │       │   ├── VertexShakeB.cs.meta
+    │       │   ├── VertexZoom.cs
+    │       │   ├── VertexZoom.cs.meta
+    │       │   ├── WarpTextExample.cs
+    │       │   └── WarpTextExample.cs.meta
+    │       ├── Scenes/
+    │       │   ├── 01-  Single Line TextMesh Pro.unity
+    │       │   ├── 01-  Single Line TextMesh Pro.unity.meta
+    │       │   ├── 02 - Multi-line TextMesh Pro.unity
+    │       │   ├── 02 - Multi-line TextMesh Pro.unity.meta
+    │       │   ├── 03 - Line Justification.unity
+    │       │   ├── 03 - Line Justification.unity.meta
+    │       │   ├── 04 - Word Wrapping.unity
+    │       │   ├── 04 - Word Wrapping.unity.meta
+    │       │   ├── 05 - Style Tags.unity
+    │       │   ├── 05 - Style Tags.unity.meta
+    │       │   ├── 06 - Extra Rich Text Examples.unity
+    │       │   ├── 06 - Extra Rich Text Examples.unity.meta
+    │       │   ├── 07 - Superscript & Subscript Example.unity
+    │       │   ├── 07 - Superscript & Subscript Example.unity.meta
+    │       │   ├── 08 - Improved Text Alignment.unity
+    │       │   ├── 08 - Improved Text Alignment.unity.meta
+    │       │   ├── 09 - Margin Tag Example.unity
+    │       │   ├── 09 - Margin Tag Example.unity.meta
+    │       │   ├── 10 - Bullets & Numbered List Example.unity
+    │       │   ├── 10 - Bullets & Numbered List Example.unity.meta
+    │       │   ├── 11 - The Style Tag.unity
+    │       │   ├── 11 - The Style Tag.unity.meta
+    │       │   ├── 12 - Link Example.unity
+    │       │   ├── 12 - Link Example.unity.meta
+    │       │   ├── 12a - Text Interactions.unity
+    │       │   ├── 12a - Text Interactions.unity.meta
+    │       │   ├── 13 - Soft Hyphenation.unity
+    │       │   ├── 13 - Soft Hyphenation.unity.meta
+    │       │   ├── 14 - Multi Font & Sprites.unity
+    │       │   ├── 14 - Multi Font & Sprites.unity.meta
+    │       │   ├── 15 - Inline Graphics & Sprites.unity
+    │       │   ├── 15 - Inline Graphics & Sprites.unity.meta
+    │       │   ├── 16 - Linked text overflow mode example.unity
+    │       │   ├── 16 - Linked text overflow mode example.unity.meta
+    │       │   ├── 17 - Old Computer Terminal.unity
+    │       │   ├── 17 - Old Computer Terminal.unity.meta
+    │       │   ├── 18 - ScrollRect & Masking & Layout.unity
+    │       │   ├── 18 - ScrollRect & Masking & Layout.unity.meta
+    │       │   ├── 19 - Masking Texture & Soft Mask.unity
+    │       │   ├── 19 - Masking Texture & Soft Mask.unity.meta
+    │       │   ├── 20 - Input Field with Scrollbar.unity
+    │       │   ├── 20 - Input Field with Scrollbar.unity.meta
+    │       │   ├── 21 - Script Example.unity
+    │       │   ├── 21 - Script Example.unity.meta
+    │       │   ├── 22 - Basic Scripting Example.unity
+    │       │   ├── 22 - Basic Scripting Example.unity.meta
+    │       │   ├── 23 - Animating Vertex Attributes.unity
+    │       │   ├── 23 - Animating Vertex Attributes.unity.meta
+    │       │   ├── 24 - Surface Shader Example URP.unity
+    │       │   ├── 24 - Surface Shader Example URP.unity.meta
+    │       │   ├── 24 - Surface Shader Example.unity
+    │       │   ├── 24 - Surface Shader Example.unity.meta
+    │       │   ├── 25 - Sunny Days Example.unity
+    │       │   ├── 25 - Sunny Days Example.unity.meta
+    │       │   ├── 26 - Dropdown Placeholder Example.unity
+    │       │   ├── 26 - Dropdown Placeholder Example.unity.meta
+    │       │   ├── 27 - Double Pass Shader Example.unity
+    │       │   ├── 27 - Double Pass Shader Example.unity.meta
+    │       │   ├── 28 - HDRP Shader Example.meta
+    │       │   ├── 28 - HDRP Shader Example.unity
+    │       │   ├── 28 - HDRP Shader Example.unity.meta
+    │       │   ├── Benchmark (Floating Text).unity
+    │       │   ├── Benchmark (Floating Text).unity.meta
+    │       │   └── 28 - HDRP Shader Example/
+    │       │       ├── Sky and Fog Volume Profile.asset
+    │       │       └── Sky and Fog Volume Profile.asset.meta
+    │       ├── Resources/
+    │       │   ├── Color Gradient Presets.meta
+    │       │   ├── Fonts & Materials.meta
+    │       │   ├── Sprite Assets.meta
+    │       │   ├── Sprite Assets/
+    │       │   │   ├── Default Sprite Asset.asset
+    │       │   │   ├── Default Sprite Asset.asset.meta
+    │       │   │   ├── DropCap Numbers.asset
+    │       │   │   └── DropCap Numbers.asset.meta
+    │       │   ├── Fonts & Materials/
+    │       │   │   ├── Anton SDF - Drop Shadow.mat
+    │       │   │   ├── Anton SDF - Drop Shadow.mat.meta
+    │       │   │   ├── Anton SDF - Outline.mat
+    │       │   │   ├── Anton SDF - Outline.mat.meta
+    │       │   │   ├── Anton SDF - Sunny Days.mat
+    │       │   │   ├── Anton SDF - Sunny Days.mat.meta
+    │       │   │   ├── Anton SDF.asset
+    │       │   │   ├── Anton SDF.asset.meta
+    │       │   │   ├── Bangers SDF - Drop Shadow - 2 Pass.mat
+    │       │   │   ├── Bangers SDF - Drop Shadow - 2 Pass.mat.meta
+    │       │   │   ├── Bangers SDF - Drop Shadow.mat
+    │       │   │   ├── Bangers SDF - Drop Shadow.mat.meta
+    │       │   │   ├── Bangers SDF - Outline.mat
+    │       │   │   ├── Bangers SDF - Outline.mat.meta
+    │       │   │   ├── Bangers SDF Glow.mat
+    │       │   │   ├── Bangers SDF Glow.mat.meta
+    │       │   │   ├── Bangers SDF Logo - URP.mat
+    │       │   │   ├── Bangers SDF Logo - URP.mat.meta
+    │       │   │   ├── Bangers SDF Logo.mat
+    │       │   │   ├── Bangers SDF Logo.mat.meta
+    │       │   │   ├── Bangers SDF.asset
+    │       │   │   ├── Bangers SDF.asset.meta
+    │       │   │   ├── Electronic Highway Sign SDF.asset
+    │       │   │   ├── Electronic Highway Sign SDF.asset.meta
+    │       │   │   ├── LiberationSans SDF - Metalic Green.mat
+    │       │   │   ├── LiberationSans SDF - Metalic Green.mat.meta
+    │       │   │   ├── LiberationSans SDF - Overlay.mat
+    │       │   │   ├── LiberationSans SDF - Overlay.mat.meta
+    │       │   │   ├── LiberationSans SDF - Soft Mask.mat
+    │       │   │   ├── LiberationSans SDF - Soft Mask.mat.meta
+    │       │   │   ├── Oswald Bold SDF.asset
+    │       │   │   ├── Oswald Bold SDF.asset.meta
+    │       │   │   ├── Roboto-Bold SDF - Drop Shadow.mat
+    │       │   │   ├── Roboto-Bold SDF - Drop Shadow.mat.meta
+    │       │   │   ├── Roboto-Bold SDF - HDRP Unlit.mat
+    │       │   │   ├── Roboto-Bold SDF - HDRP Unlit.mat.meta
+    │       │   │   ├── Roboto-Bold SDF - Surface.mat
+    │       │   │   ├── Roboto-Bold SDF - Surface.mat.meta
+    │       │   │   ├── Roboto-Bold SDF - URP.mat
+    │       │   │   ├── Roboto-Bold SDF - URP.mat.meta
+    │       │   │   ├── Roboto-Bold SDF.asset
+    │       │   │   ├── Roboto-Bold SDF.asset.meta
+    │       │   │   ├── Unity SDF - HDRP LIT - Bloom.mat
+    │       │   │   ├── Unity SDF - HDRP LIT - Bloom.mat.meta
+    │       │   │   ├── Unity SDF - HDRP LIT - Outline.mat
+    │       │   │   ├── Unity SDF - HDRP LIT - Outline.mat.meta
+    │       │   │   ├── Unity SDF.asset
+    │       │   │   └── Unity SDF.asset.meta
+    │       │   └── Color Gradient Presets/
+    │       │       ├── Blue to Purple - Vertical.asset
+    │       │       ├── Blue to Purple - Vertical.asset.meta
+    │       │       ├── Dark to Light Green - Vertical.asset
+    │       │       ├── Dark to Light Green - Vertical.asset.meta
+    │       │       ├── Light to Dark Green - Vertical.asset
+    │       │       ├── Light to Dark Green - Vertical.asset.meta
+    │       │       ├── Yellow to Orange - Vertical.asset
+    │       │       └── Yellow to Orange - Vertical.asset.meta
+    │       ├── Prefabs/
+    │       │   ├── Text Popup.prefab
+    │       │   ├── Text Popup.prefab.meta
+    │       │   ├── TextMeshPro - Prefab 1.prefab
+    │       │   ├── TextMeshPro - Prefab 1.prefab.meta
+    │       │   ├── TextMeshPro - Prefab 2.prefab
+    │       │   └── TextMeshPro - Prefab 2.prefab.meta
+    │       ├── Materials/
+    │       │   ├── Crate - Surface Shader Scene.mat
+    │       │   ├── Crate - Surface Shader Scene.mat.meta
+    │       │   ├── Crate - URP.mat
+    │       │   ├── Crate - URP.mat.meta
+    │       │   ├── Ground - Logo Scene.mat
+    │       │   ├── Ground - Logo Scene.mat.meta
+    │       │   ├── Ground - Surface Shader Scene.mat
+    │       │   ├── Ground - Surface Shader Scene.mat.meta
+    │       │   ├── Ground - URP.mat
+    │       │   ├── Ground - URP.mat.meta
+    │       │   ├── Small Crate_diffuse.mat
+    │       │   └── Small Crate_diffuse.mat.meta
+    │       └── Fonts/
+    │           ├── Anton OFL.txt
+    │           ├── Anton OFL.txt.meta
+    │           ├── Anton.ttf
+    │           ├── Anton.ttf.meta
+    │           ├── Bangers - OFL.txt
+    │           ├── Bangers - OFL.txt.meta
+    │           ├── Bangers.ttf
+    │           ├── Bangers.ttf.meta
+    │           ├── Electronic Highway Sign.TTF
+    │           ├── Electronic Highway Sign.TTF.meta
+    │           ├── Oswald-Bold - OFL.txt
+    │           ├── Oswald-Bold - OFL.txt.meta
+    │           ├── Oswald-Bold.ttf
+    │           ├── Oswald-Bold.ttf.meta
+    │           ├── Roboto-Bold - AFL.txt
+    │           ├── Roboto-Bold - AFL.txt.meta
+    │           ├── Roboto-Bold - License.txt
+    │           ├── Roboto-Bold - License.txt.meta
+    │           ├── Roboto-Bold.ttf
+    │           ├── Roboto-Bold.ttf.meta
+    │           ├── Unity - OFL.txt
+    │           ├── Unity - OFL.txt.meta
+    │           ├── Unity.ttf
+    │           └── Unity.ttf.meta
+    ├── Shaders/
+    │   ├── URP-PSX-FORKED-master.meta
+    │   └── URP-PSX-FORKED-master/
+    │       ├── .gitattributes
+    │       ├── .gitignore
+    │       ├── LICENSE
+    │       ├── LICENSE.meta
+    │       ├── Media.meta
+    │       ├── README.md
+    │       ├── README.md.meta
+    │       ├── URP-PSX.meta
+    │       ├── URP-PSX/
+    │       │   ├── Assets.meta
+    │       │   ├── Media.meta
+    │       │   ├── Packages.meta
+    │       │   ├── ProjectSettings.meta
+    │       │   ├── ProjectSettings/
+    │       │   │   ├── AudioManager.asset
+    │       │   │   ├── AudioManager.asset.meta
+    │       │   │   ├── ClusterInputManager.asset
+    │       │   │   ├── ClusterInputManager.asset.meta
+    │       │   │   ├── DynamicsManager.asset
+    │       │   │   ├── DynamicsManager.asset.meta
+    │       │   │   ├── EditorBuildSettings.asset
+    │       │   │   ├── EditorBuildSettings.asset.meta
+    │       │   │   ├── EditorSettings.asset
+    │       │   │   ├── EditorSettings.asset.meta
+    │       │   │   ├── GraphicsSettings.asset
+    │       │   │   ├── GraphicsSettings.asset.meta
+    │       │   │   ├── InputManager.asset
+    │       │   │   ├── InputManager.asset.meta
+    │       │   │   ├── MemorySettings.asset
+    │       │   │   ├── MemorySettings.asset.meta
+    │       │   │   ├── NavMeshAreas.asset
+    │       │   │   ├── NavMeshAreas.asset.meta
+    │       │   │   ├── PackageManagerSettings.asset
+    │       │   │   ├── PackageManagerSettings.asset.meta
+    │       │   │   ├── Packages.meta
+    │       │   │   ├── Physics2DSettings.asset
+    │       │   │   ├── Physics2DSettings.asset.meta
+    │       │   │   ├── PresetManager.asset
+    │       │   │   ├── PresetManager.asset.meta
+    │       │   │   ├── ProjectSettings.asset
+    │       │   │   ├── ProjectSettings.asset.meta
+    │       │   │   ├── ProjectVersion.txt
+    │       │   │   ├── ProjectVersion.txt.meta
+    │       │   │   ├── QualitySettings.asset
+    │       │   │   ├── QualitySettings.asset.meta
+    │       │   │   ├── SceneTemplateSettings.json
+    │       │   │   ├── SceneTemplateSettings.json.meta
+    │       │   │   ├── ShaderGraphSettings.asset
+    │       │   │   ├── ShaderGraphSettings.asset.meta
+    │       │   │   ├── TagManager.asset
+    │       │   │   ├── TagManager.asset.meta
+    │       │   │   ├── TimeManager.asset
+    │       │   │   ├── TimeManager.asset.meta
+    │       │   │   ├── UnityConnectSettings.asset
+    │       │   │   ├── UnityConnectSettings.asset.meta
+    │       │   │   ├── URPProjectSettings.asset
+    │       │   │   ├── URPProjectSettings.asset.meta
+    │       │   │   ├── VersionControlSettings.asset
+    │       │   │   ├── VersionControlSettings.asset.meta
+    │       │   │   ├── VFXManager.asset
+    │       │   │   ├── VFXManager.asset.meta
+    │       │   │   ├── XRSettings.asset
+    │       │   │   ├── XRSettings.asset.meta
+    │       │   │   └── Packages/
+    │       │   │       ├── com.unity.polybrush.meta
+    │       │   │       └── com.unity.polybrush/
+    │       │   │           ├── Settings.json
+    │       │   │           └── Settings.json.meta
+    │       │   ├── Packages/
+    │       │   │   ├── manifest.json
+    │       │   │   ├── manifest.json.meta
+    │       │   │   ├── packages-lock.json
+    │       │   │   └── packages-lock.json.meta
+    │       │   ├── Media/
+    │       │   │   ├── preview1.gif
+    │       │   │   └── preview1.gif.meta
+    │       │   └── Assets/
+    │       │       ├── Materials.meta
+    │       │       ├── Models.meta
+    │       │       ├── Polybrush Data.meta
+    │       │       ├── Scenes.meta
+    │       │       ├── Scripts.meta
+    │       │       ├── Shaders.meta
+    │       │       ├── Subgraphs.meta
+    │       │       ├── URP-PSX Render Pipeline Asset_Renderer.asset
+    │       │       ├── URP-PSX Render Pipeline Asset_Renderer.asset.meta
+    │       │       ├── URP-PSX Render Pipeline Global Settings.asset
+    │       │       ├── URP-PSX Render Pipeline Global Settings.asset.meta
+    │       │       ├── URP-PSX Volume Profile.asset
+    │       │       ├── URP-PSX Volume Profile.asset.meta
+    │       │       ├── URP-PSX-Render Pipeline Asset.asset
+    │       │       ├── URP-PSX-Render Pipeline Asset.asset.meta
+    │       │       ├── Subgraphs/
+    │       │       │   ├── AffineTextureMapping.shadersubgraph
+    │       │       │   ├── AffineTextureMapping.shadersubgraph.meta
+    │       │       │   ├── CalculateAdditionalLights.shadersubgraph
+    │       │       │   ├── CalculateAdditionalLights.shadersubgraph.meta
+    │       │       │   ├── CalculateLighting.shadersubgraph
+    │       │       │   ├── CalculateLighting.shadersubgraph.meta
+    │       │       │   ├── CalculateMainLight.shadersubgraph
+    │       │       │   ├── CalculateMainLight.shadersubgraph.meta
+    │       │       │   ├── CameraClipping.shadersubgraph
+    │       │       │   ├── CameraClipping.shadersubgraph.meta
+    │       │       │   ├── ColorPrecision.shadersubgraph
+    │       │       │   ├── ColorPrecision.shadersubgraph.meta
+    │       │       │   ├── DirectSpecular.shadersubgraph
+    │       │       │   ├── DirectSpecular.shadersubgraph.meta
+    │       │       │   ├── Fatten.shadersubgraph
+    │       │       │   ├── Fatten.shadersubgraph.meta
+    │       │       │   ├── GetMainLight.shadersubgraph
+    │       │       │   ├── GetMainLight.shadersubgraph.meta
+    │       │       │   ├── Other.meta
+    │       │       │   ├── UV_Pixelation.shadersubgraph
+    │       │       │   ├── UV_Pixelation.shadersubgraph.meta
+    │       │       │   ├── VertexJitter.shadersubgraph
+    │       │       │   ├── VertexJitter.shadersubgraph.meta
+    │       │       │   └── Other/
+    │       │       │       ├── randomColorPicker.shadersubgraph
+    │       │       │       ├── randomColorPicker.shadersubgraph.meta
+    │       │       │       ├── VoronoiWithCenter.shadersubgraph
+    │       │       │       └── VoronoiWithCenter.shadersubgraph.meta
+    │       │       ├── Shaders/
+    │       │       │   ├── cginc.meta
+    │       │       │   ├── CRTShader.shader
+    │       │       │   ├── CRTShader.shader.meta
+    │       │       │   ├── Dithering.shader
+    │       │       │   ├── Dithering.shader.meta
+    │       │       │   ├── Fog.shader
+    │       │       │   ├── Fog.shader.meta
+    │       │       │   ├── HLSL.meta
+    │       │       │   ├── Other.meta
+    │       │       │   ├── Pixelation.shader
+    │       │       │   ├── Pixelation.shader.meta
+    │       │       │   ├── URP_PSX_PBR_Master.shadergraph
+    │       │       │   ├── URP_PSX_PBR_Master.shadergraph.meta
+    │       │       │   ├── URP_PSX_PBR_Master_with_transparency.shadergraph
+    │       │       │   ├── URP_PSX_PBR_Master_with_transparency.shadergraph.meta
+    │       │       │   ├── URP_PSX_Unlit_Master.shadergraph
+    │       │       │   ├── URP_PSX_Unlit_Master.shadergraph.meta
+    │       │       │   ├── Other/
+    │       │       │   │   ├── HazeGlassShader.shadergraph
+    │       │       │   │   ├── HazeGlassShader.shadergraph.meta
+    │       │       │   │   ├── PS1AffineFog.shader
+    │       │       │   │   ├── PS1AffineFog.shader.meta
+    │       │       │   │   ├── PS1AffineFogPolyBrush.shader
+    │       │       │   │   ├── PS1AffineFogPolyBrush.shader.meta
+    │       │       │   │   ├── Readme.md
+    │       │       │   │   ├── Readme.md.meta
+    │       │       │   │   ├── Unlit_PS1AffineFog.mat
+    │       │       │   │   ├── Unlit_PS1AffineFog.mat.meta
+    │       │       │   │   ├── Unlit_PS1AffineFogPolyBrush.mat
+    │       │       │   │   └── Unlit_PS1AffineFogPolyBrush.mat.meta
+    │       │       │   ├── HLSL/
+    │       │       │   │   ├── CustomLighting.hlsl
+    │       │       │   │   └── CustomLighting.hlsl.meta
+    │       │       │   └── cginc/
+    │       │       │       ├── DitheringPatterns.cginc
+    │       │       │       ├── DitheringPatterns.cginc.meta
+    │       │       │       ├── voronoi.cginc
+    │       │       │       └── voronoi.cginc.meta
+    │       │       ├── Scripts/
+    │       │       │   ├── CRT.meta
+    │       │       │   ├── Dithering.meta
+    │       │       │   ├── Fog.meta
+    │       │       │   ├── Pixelation.meta
+    │       │       │   ├── Pixelation/
+    │       │       │   │   ├── Pixelation.cs
+    │       │       │   │   ├── Pixelation.cs.meta
+    │       │       │   │   ├── PixelationController.cs
+    │       │       │   │   ├── PixelationController.cs.meta
+    │       │       │   │   ├── PixelationRenderFeature.cs
+    │       │       │   │   └── PixelationRenderFeature.cs.meta
+    │       │       │   ├── Fog/
+    │       │       │   │   ├── Fog.cs
+    │       │       │   │   ├── Fog.cs.meta
+    │       │       │   │   ├── FogController.cs
+    │       │       │   │   ├── FogController.cs.meta
+    │       │       │   │   ├── FogRenderFeature.cs
+    │       │       │   │   └── FogRenderFeature.cs.meta
+    │       │       │   ├── Dithering/
+    │       │       │   │   ├── Dithering.cs
+    │       │       │   │   ├── Dithering.cs.meta
+    │       │       │   │   ├── DitheringController.cs
+    │       │       │   │   ├── DitheringController.cs.meta
+    │       │       │   │   ├── DitheringRenderFeature.cs
+    │       │       │   │   └── DitheringRenderFeature.cs.meta
+    │       │       │   └── CRT/
+    │       │       │       ├── Crt.cs
+    │       │       │       ├── Crt.cs.meta
+    │       │       │       ├── CRTEffectController.cs
+    │       │       │       ├── CRTEffectController.cs.meta
+    │       │       │       ├── CRTRenderFeature.cs
+    │       │       │       └── CRTRenderFeature.cs.meta
+    │       │       ├── Scenes/
+    │       │       │   ├── Psx_PBR.unity
+    │       │       │   ├── Psx_PBR.unity.meta
+    │       │       │   ├── Psx_PBRSettings.lighting
+    │       │       │   ├── Psx_PBRSettings.lighting.meta
+    │       │       │   ├── Psx_Unlit.unity
+    │       │       │   ├── Psx_Unlit.unity.meta
+    │       │       │   ├── Psx_UnlitSettings.lighting
+    │       │       │   ├── Psx_UnlitSettings.lighting.meta
+    │       │       │   ├── Psx_Unlit_Variant.lighting
+    │       │       │   ├── Psx_Unlit_Variant.lighting.meta
+    │       │       │   ├── Psx_Unlit_Variant.unity
+    │       │       │   ├── Psx_Unlit_Variant.unity.meta
+    │       │       │   ├── Psx_Unlit_Variant_PolyBrush.lighting
+    │       │       │   ├── Psx_Unlit_Variant_PolyBrush.lighting.meta
+    │       │       │   ├── Psx_Unlit_Variant_PolyBrush.unity
+    │       │       │   └── Psx_Unlit_Variant_PolyBrush.unity.meta
+    │       │       ├── Polybrush Data/
+    │       │       │   ├── Brush Settings.meta
+    │       │       │   └── Brush Settings/
+    │       │       │       ├── BrushSettings-Default.asset
+    │       │       │       └── BrushSettings-Default.asset.meta
+    │       │       ├── Models/
+    │       │       │   ├── buddhaPreaching.jpg
+    │       │       │   ├── buddhaPreaching.jpg.meta
+    │       │       │   ├── buddhaPreaching.obj
+    │       │       │   ├── buddhaPreaching.obj.meta
+    │       │       │   ├── grass.jpg
+    │       │       │   ├── grass.jpg.meta
+    │       │       │   ├── rock.jpg
+    │       │       │   ├── rock.jpg.meta
+    │       │       │   ├── Rocks.png
+    │       │       │   ├── Rocks.png.meta
+    │       │       │   ├── Rock_1.obj
+    │       │       │   └── Rock_1.obj.meta
+    │       │       └── Materials/
+    │       │           ├── HazeGlass.mat
+    │       │           ├── HazeGlass.mat.meta
+    │       │           ├── Psx_Glass.mat
+    │       │           ├── Psx_Glass.mat.meta
+    │       │           ├── Psx_PBR_Buddha.mat
+    │       │           ├── Psx_PBR_Buddha.mat.meta
+    │       │           ├── Psx_PBR_Ground.mat
+    │       │           ├── Psx_PBR_Ground.mat.meta
+    │       │           ├── Psx_PBR_Rock.mat
+    │       │           ├── Psx_PBR_Rock.mat.meta
+    │       │           ├── Psx_Unlity_Variant_Ground.mat
+    │       │           ├── Psx_Unlity_Variant_Ground.mat.meta
+    │       │           ├── Psx_Unlit_Buddha.mat
+    │       │           ├── Psx_Unlit_Buddha.mat.meta
+    │       │           ├── Psx_Unlit_Ground.mat
+    │       │           ├── Psx_Unlit_Ground.mat.meta
+    │       │           ├── Psx_Unlit_Rock.mat
+    │       │           ├── Psx_Unlit_Rock.mat.meta
+    │       │           ├── Psx_Unlit_Variant_Buddha.mat
+    │       │           ├── Psx_Unlit_Variant_Buddha.mat.meta
+    │       │           ├── Psx_Unlit_Variant_Ground_PolyBrush.mat
+    │       │           ├── Psx_Unlit_Variant_Ground_PolyBrush.mat.meta
+    │       │           ├── Psx_Unlit_Variant_Rock.mat
+    │       │           ├── Psx_Unlit_Variant_Rock.mat.meta
+    │       │           ├── transparent-blue.png
+    │       │           └── transparent-blue.png.meta
+    │       └── Media/
+    │           ├── 01.gif
+    │           ├── 01.gif.meta
+    │           ├── 02.gif
+    │           ├── 02.gif.meta
+    │           ├── 03.PNG
+    │           ├── 03.PNG.meta
+    │           ├── 04.PNG
+    │           ├── 04.PNG.meta
+    │           ├── crt1.gif
+    │           ├── crt1.gif.meta
+    │           ├── poly1.gif
+    │           └── poly1.gif.meta
+    ├── Settings/
+    │   ├── DefaultVolumeProfile.asset
+    │   ├── DefaultVolumeProfile.asset.meta
+    │   ├── EvaInputActions.cs
+    │   ├── EvaInputActions.cs.meta
+    │   ├── EvaInputActions.inputactions
+    │   ├── EvaInputActions.inputactions.meta
+    │   ├── Mobile_Renderer.asset
+    │   ├── Mobile_Renderer.asset.meta
+    │   ├── Mobile_RPAsset.asset
+    │   ├── Mobile_RPAsset.asset.meta
+    │   ├── New Lighting Settings.lighting
+    │   ├── New Lighting Settings.lighting.meta
+    │   ├── PC_Renderer.asset
+    │   ├── PC_Renderer.asset.meta
+    │   ├── PC_RPAsset.asset
+    │   ├── PC_RPAsset.asset.meta
+    │   ├── SampleSceneProfile.asset
+    │   ├── SampleSceneProfile.asset.meta
+    │   ├── UniversalRenderPipelineGlobalSettings.asset
+    │   └── UniversalRenderPipelineGlobalSettings.asset.meta
+    ├── Scripts/
+    │   ├── Camera.meta
+    │   ├── Input.meta
+    │   ├── Interaction.meta
+    │   ├── Player.meta
+    │   ├── Systems.meta
+    │   ├── Systems/
+    │   │   ├── FrameRateLimiter.cs
+    │   │   ├── FrameRateLimiter.cs.meta
+    │   │   ├── GameManager.cs
+    │   │   ├── GameManager.cs.meta
+    │   │   ├── InputDeviceTracker.cs
+    │   │   └── InputDeviceTracker.cs.meta
+    │   ├── Player/
+    │   │   ├── PlayerController.cs
+    │   │   ├── PlayerController.cs.meta
+    │   │   ├── PlayerInteraction.cs
+    │   │   ├── PlayerInteraction.cs.meta
+    │   │   ├── PlayerInventory.cs
+    │   │   └── PlayerInventory.cs.meta
+    │   ├── Interaction/
+    │   │   ├── ButtonGateTrigger.cs
+    │   │   ├── ButtonGateTrigger.cs.meta
+    │   │   ├── GateMover.cs
+    │   │   ├── GateMover.cs.meta
+    │   │   ├── Interactable.cs
+    │   │   ├── Interactable.cs.meta
+    │   │   ├── PickUpItem.cs
+    │   │   └── PickUpItem.cs.meta
+    │   ├── Input/
+    │   │   ├── GameControls.cs
+    │   │   ├── GameControls.cs.meta
+    │   │   ├── GameControls.inputactions
+    │   │   └── GameControls.inputactions.meta
+    │   └── Camera/
+    │       ├── CameraManager.cs
+    │       ├── CameraManager.cs.meta
+    │       ├── FixedCameraZone.cs
+    │       ├── FixedCameraZone.cs.meta
+    │       ├── FollowCamera.cs
+    │       ├── FollowCamera.cs.meta
+    │       ├── FollowCameraZone.cs
+    │       └── FollowCameraZone.cs.meta
+    ├── Scenes/
+    │   ├── 00_Test_Ground.unity
+    │   ├── 00_Test_Ground.unity.meta
+    │   ├── LVL_01_Woods_Intro.unity
+    │   └── LVL_01_Woods_Intro.unity.meta
+    ├── Prefabs/
+    │   ├── Inventory.meta
+    │   └── Inventory/
+    │       ├── Inv_Cube.prefab
+    │       ├── Inv_Cube.prefab.meta
+    │       ├── Inv_Cylinder.prefab
+    │       ├── Inv_Cylinder.prefab.meta
+    │       ├── Inv_Sphere.prefab
+    │       └── Inv_Sphere.prefab.meta
+    ├── Characters/
+    │   ├── Eva.meta
+    │   └── Eva/
+    │       ├── Animations.meta
+    │       ├── Eva.fbx
+    │       ├── Eva.fbx.meta
+    │       ├── Eva_Body_Mat.mat
+    │       ├── Eva_Body_Mat.mat.meta
+    │       ├── Eva_tex.png
+    │       ├── Eva_tex.png.meta
+    │       └── Animations/
+    │           ├── Eva@Falling-Knees.fbx
+    │           ├── Eva@Falling-Knees.fbx.meta
+    │           ├── Eva@Lifting.fbx
+    │           ├── Eva@Lifting.fbx.meta
+    │           ├── Eva@wake up-stand up.fbx
+    │           ├── Eva@wake up-stand up.fbx.meta
+    │           ├── Eva_AnimatorController.controller
+    │           ├── Eva_AnimatorController.controller.meta
+    │           ├── Eva_Idle_Anim.fbx
+    │           ├── Eva_Idle_Anim.fbx.meta
+    │           ├── Eva_Run_Anim.fbx
+    │           ├── Eva_Run_Anim.fbx.meta
+    │           ├── Eva_Walking Backwards_Anim.fbx
+    │           ├── Eva_Walking Backwards_Anim.fbx.meta
+    │           ├── Eva_Walk_Anim.fbx
+    │           └── Eva_Walk_Anim.fbx.meta
+    └── Art/
+        ├── Environment.meta
+        └── Environment/
+            ├── retro_nature_pack.meta
+            ├── Sky.meta
+            ├── Sky/
+            │   ├── Materials.meta
+            │   ├── Textures.meta
+            │   ├── Textures/
+            │   │   ├── T_SkyBox_Dusk.jpg
+            │   │   └── T_SkyBox_Dusk.jpg.meta
+            │   └── Materials/
+            │       ├── M_SkyBox_Dusk.mat
+            │       └── M_SkyBox_Dusk.mat.meta
+            └── retro_nature_pack/
+                ├── Materials.meta
+                ├── Models.meta
+                ├── Prefabs.meta
+                ├── READ ME.txt
+                ├── READ ME.txt.meta
+                ├── Textures.meta
+                ├── Textures/
+                │   ├── bushes.meta
+                │   ├── grass.meta
+                │   ├── trees.meta
+                │   ├── trees/
+                │   │   ├── tree01_fall.png
+                │   │   ├── tree01_fall.png.meta
+                │   │   ├── tree01_spring.png
+                │   │   ├── tree01_spring.png.meta
+                │   │   ├── tree01_summer.png
+                │   │   ├── tree01_summer.png.meta
+                │   │   ├── tree01_winter.png
+                │   │   ├── tree01_winter.png.meta
+                │   │   ├── tree02_fall.png
+                │   │   ├── tree02_fall.png.meta
+                │   │   ├── tree02_spring.png
+                │   │   ├── tree02_spring.png.meta
+                │   │   ├── tree02_summer.png
+                │   │   ├── tree02_summer.png.meta
+                │   │   ├── tree02_winter.png
+                │   │   ├── tree02_winter.png.meta
+                │   │   ├── tree03_fall.png
+                │   │   ├── tree03_fall.png.meta
+                │   │   ├── tree03_spring.png
+                │   │   ├── tree03_spring.png.meta
+                │   │   ├── tree03_summer.png
+                │   │   ├── tree03_summer.png.meta
+                │   │   ├── tree03_winter.png
+                │   │   ├── tree03_winter.png.meta
+                │   │   ├── tree04_fall.png
+                │   │   ├── tree04_fall.png.meta
+                │   │   ├── tree04_spring.png
+                │   │   ├── tree04_spring.png.meta
+                │   │   ├── tree04_summer.png
+                │   │   ├── tree04_summer.png.meta
+                │   │   ├── tree04_winter.png
+                │   │   ├── tree04_winter.png.meta
+                │   │   ├── tree05_fall.png
+                │   │   ├── tree05_fall.png.meta
+                │   │   ├── tree05_spring.png
+                │   │   ├── tree05_spring.png.meta
+                │   │   ├── tree05_summer.png
+                │   │   ├── tree05_summer.png.meta
+                │   │   ├── tree05_winter.png
+                │   │   ├── tree05_winter.png.meta
+                │   │   ├── tree06_fall.png
+                │   │   ├── tree06_fall.png.meta
+                │   │   ├── tree06_spring.png
+                │   │   ├── tree06_spring.png.meta
+                │   │   ├── tree06_summer.png
+                │   │   ├── tree06_summer.png.meta
+                │   │   ├── tree06_winter.png
+                │   │   ├── tree06_winter.png.meta
+                │   │   ├── tree07_fall.png
+                │   │   ├── tree07_fall.png.meta
+                │   │   ├── tree07_spring.png
+                │   │   ├── tree07_spring.png.meta
+                │   │   ├── tree07_summer.png
+                │   │   ├── tree07_summer.png.meta
+                │   │   ├── tree07_winter.png
+                │   │   ├── tree07_winter.png.meta
+                │   │   ├── tree08_fall.png
+                │   │   ├── tree08_fall.png.meta
+                │   │   ├── tree08_spring.png
+                │   │   ├── tree08_spring.png.meta
+                │   │   ├── tree08_summer.png
+                │   │   ├── tree08_summer.png.meta
+                │   │   ├── tree08_winter.png
+                │   │   └── tree08_winter.png.meta
+                │   ├── grass/
+                │   │   ├── grass_bush_fall.png
+                │   │   ├── grass_bush_fall.png.meta
+                │   │   ├── grass_bush_spring.png
+                │   │   ├── grass_bush_spring.png.meta
+                │   │   ├── grass_bush_summer.png
+                │   │   ├── grass_bush_summer.png.meta
+                │   │   ├── grass_bush_winter.png
+                │   │   ├── grass_bush_winter.png.meta
+                │   │   ├── grass_fall.png
+                │   │   ├── grass_fall.png.meta
+                │   │   ├── grass_patch_fall.png
+                │   │   ├── grass_patch_fall.png.meta
+                │   │   ├── grass_patch_spring.png
+                │   │   ├── grass_patch_spring.png.meta
+                │   │   ├── grass_patch_summer.png
+                │   │   ├── grass_patch_summer.png.meta
+                │   │   ├── grass_patch_winter.png
+                │   │   ├── grass_patch_winter.png.meta
+                │   │   ├── grass_spring.png
+                │   │   ├── grass_spring.png.meta
+                │   │   ├── grass_summer.png
+                │   │   ├── grass_summer.png.meta
+                │   │   ├── grass_winter.png
+                │   │   └── grass_winter.png.meta
+                │   └── bushes/
+                │       ├── bush1_fall.png
+                │       ├── bush1_fall.png.meta
+                │       ├── bush1_spring.png
+                │       ├── bush1_spring.png.meta
+                │       ├── bush1_summer.png
+                │       ├── bush1_summer.png.meta
+                │       ├── bush1_winter.png
+                │       ├── bush1_winter.png.meta
+                │       ├── bush2_fall.png
+                │       ├── bush2_fall.png.meta
+                │       ├── bush2_spring1.png
+                │       ├── bush2_spring1.png.meta
+                │       ├── bush2_spring2.png
+                │       ├── bush2_spring2.png.meta
+                │       ├── bush2_spring3.png
+                │       ├── bush2_spring3.png.meta
+                │       ├── bush2_spring4.png
+                │       ├── bush2_spring4.png.meta
+                │       ├── bush2_spring5.png
+                │       ├── bush2_spring5.png.meta
+                │       ├── bush2_spring6.png
+                │       ├── bush2_spring6.png.meta
+                │       ├── bush2_summer.png
+                │       ├── bush2_summer.png.meta
+                │       ├── bush2_winter.png
+                │       ├── bush2_winter.png.meta
+                │       ├── bush3_fall.png
+                │       ├── bush3_fall.png.meta
+                │       ├── bush3_spring1.png
+                │       ├── bush3_spring1.png.meta
+                │       ├── bush3_spring2.png
+                │       ├── bush3_spring2.png.meta
+                │       ├── bush3_spring3.png
+                │       ├── bush3_spring3.png.meta
+                │       ├── bush3_spring4.png
+                │       ├── bush3_spring4.png.meta
+                │       ├── bush3_spring5.png
+                │       ├── bush3_spring5.png.meta
+                │       ├── bush3_spring6.png
+                │       ├── bush3_spring6.png.meta
+                │       ├── bush3_summer.png
+                │       ├── bush3_summer.png.meta
+                │       ├── bush3_winter.png
+                │       ├── bush3_winter.png.meta
+                │       ├── bush4_fall.png
+                │       ├── bush4_fall.png.meta
+                │       ├── bush4_spring1.png
+                │       ├── bush4_spring1.png.meta
+                │       ├── bush4_spring2.png
+                │       ├── bush4_spring2.png.meta
+                │       ├── bush4_spring3.png
+                │       ├── bush4_spring3.png.meta
+                │       ├── bush4_spring4.png
+                │       ├── bush4_spring4.png.meta
+                │       ├── bush4_spring5.png
+                │       ├── bush4_spring5.png.meta
+                │       ├── bush4_spring6.png
+                │       ├── bush4_spring6.png.meta
+                │       ├── bush4_summer.png
+                │       ├── bush4_summer.png.meta
+                │       ├── bush4_winter.png
+                │       ├── bush4_winter.png.meta
+                │       ├── bush5_fall.png
+                │       ├── bush5_fall.png.meta
+                │       ├── bush5_spring1.png
+                │       ├── bush5_spring1.png.meta
+                │       ├── bush5_spring2.png
+                │       ├── bush5_spring2.png.meta
+                │       ├── bush5_spring3.png
+                │       ├── bush5_spring3.png.meta
+                │       ├── bush5_spring4.png
+                │       ├── bush5_spring4.png.meta
+                │       ├── bush5_spring5.png
+                │       ├── bush5_spring5.png.meta
+                │       ├── bush5_spring6.png
+                │       ├── bush5_spring6.png.meta
+                │       ├── bush5_summer.png
+                │       ├── bush5_summer.png.meta
+                │       ├── bush5_winter.png
+                │       ├── bush5_winter.png.meta
+                │       ├── bush6_fall.png
+                │       ├── bush6_fall.png.meta
+                │       ├── bush6_spring1.png
+                │       ├── bush6_spring1.png.meta
+                │       ├── bush6_spring2.png
+                │       ├── bush6_spring2.png.meta
+                │       ├── bush6_spring3.png
+                │       ├── bush6_spring3.png.meta
+                │       ├── bush6_spring4.png
+                │       ├── bush6_spring4.png.meta
+                │       ├── bush6_spring5.png
+                │       ├── bush6_spring5.png.meta
+                │       ├── bush6_spring6.png
+                │       ├── bush6_spring6.png.meta
+                │       ├── bush6_summer.png
+                │       ├── bush6_summer.png.meta
+                │       ├── bush6_winter.png
+                │       ├── bush6_winter.png.meta
+                │       ├── bush7_fall.png
+                │       ├── bush7_fall.png.meta
+                │       ├── bush7_spring.png
+                │       ├── bush7_spring.png.meta
+                │       ├── bush7_summer.png
+                │       ├── bush7_summer.png.meta
+                │       ├── bush7_winter.png
+                │       ├── bush7_winter.png.meta
+                │       ├── bush8_fall.png
+                │       ├── bush8_fall.png.meta
+                │       ├── bush8_spring.png
+                │       ├── bush8_spring.png.meta
+                │       ├── bush8_summer.png
+                │       ├── bush8_summer.png.meta
+                │       ├── bush8_winter.png
+                │       └── bush8_winter.png.meta
+                ├── Prefabs/
+                │   ├── Tree_01.prefab
+                │   ├── Tree_01.prefab.meta
+                │   ├── Tree_02.prefab
+                │   ├── Tree_02.prefab.meta
+                │   ├── Tree_03.prefab
+                │   ├── Tree_03.prefab.meta
+                │   ├── Tree_04.prefab
+                │   ├── Tree_04.prefab.meta
+                │   ├── Tree_05.prefab
+                │   ├── Tree_05.prefab.meta
+                │   ├── Tree_06.prefab
+                │   ├── Tree_06.prefab.meta
+                │   ├── Tree_07.prefab
+                │   ├── Tree_07.prefab.meta
+                │   ├── Tree_08.prefab
+                │   └── Tree_08.prefab.meta
+                ├── Models/
+                │   ├── FBX.meta
+                │   ├── glTF.meta
+                │   ├── OBJ.meta
+                │   ├── OBJ/
+                │   │   ├── bushes.meta
+                │   │   ├── grass.meta
+                │   │   ├── trees.meta
+                │   │   ├── trees/
+                │   │   │   ├── tree01.obj
+                │   │   │   ├── tree01.obj.meta
+                │   │   │   ├── tree01_winter.obj
+                │   │   │   ├── tree01_winter.obj.meta
+                │   │   │   ├── tree02.obj
+                │   │   │   ├── tree02.obj.meta
+                │   │   │   ├── tree02_winter.obj
+                │   │   │   ├── tree02_winter.obj.meta
+                │   │   │   ├── tree03.obj
+                │   │   │   ├── tree03.obj.meta
+                │   │   │   ├── tree03_winter.obj
+                │   │   │   ├── tree03_winter.obj.meta
+                │   │   │   ├── tree04.obj
+                │   │   │   ├── tree04.obj.meta
+                │   │   │   ├── tree04_winter.obj
+                │   │   │   ├── tree04_winter.obj.meta
+                │   │   │   ├── tree05.obj
+                │   │   │   ├── tree05.obj.meta
+                │   │   │   ├── tree05_winter.obj
+                │   │   │   ├── tree05_winter.obj.meta
+                │   │   │   ├── tree06.obj
+                │   │   │   ├── tree06.obj.meta
+                │   │   │   ├── tree06_winter.obj
+                │   │   │   ├── tree06_winter.obj.meta
+                │   │   │   ├── tree07.obj
+                │   │   │   ├── tree07.obj.meta
+                │   │   │   ├── tree08.obj
+                │   │   │   └── tree08.obj.meta
+                │   │   ├── grass/
+                │   │   │   ├── grass01.obj
+                │   │   │   ├── grass01.obj.meta
+                │   │   │   ├── grass02.obj
+                │   │   │   ├── grass02.obj.meta
+                │   │   │   ├── grass03.obj
+                │   │   │   ├── grass03.obj.meta
+                │   │   │   ├── grass04.obj
+                │   │   │   ├── grass04.obj.meta
+                │   │   │   ├── grass05.obj
+                │   │   │   ├── grass05.obj.meta
+                │   │   │   ├── grass06.obj
+                │   │   │   ├── grass06.obj.meta
+                │   │   │   ├── grass07.obj
+                │   │   │   ├── grass07.obj.meta
+                │   │   │   ├── grass08.obj
+                │   │   │   ├── grass08.obj.meta
+                │   │   │   ├── grass09.obj
+                │   │   │   ├── grass09.obj.meta
+                │   │   │   ├── grass_bush.obj
+                │   │   │   ├── grass_bush.obj.meta
+                │   │   │   ├── grass_patch.obj
+                │   │   │   ├── grass_patch.obj.meta
+                │   │   │   ├── grass_patch_corner.obj
+                │   │   │   └── grass_patch_corner.obj.meta
+                │   │   └── bushes/
+                │   │       ├── bush01.obj
+                │   │       ├── bush01.obj.meta
+                │   │       ├── bush01_winter.obj
+                │   │       ├── bush01_winter.obj.meta
+                │   │       ├── bush02.obj
+                │   │       ├── bush02.obj.meta
+                │   │       ├── bush02_winter.obj
+                │   │       ├── bush02_winter.obj.meta
+                │   │       ├── bush03.obj
+                │   │       ├── bush03.obj.meta
+                │   │       ├── bush03_winter.obj
+                │   │       ├── bush03_winter.obj.meta
+                │   │       ├── bush04.obj
+                │   │       ├── bush04.obj.meta
+                │   │       ├── bush04_winter.obj
+                │   │       ├── bush04_winter.obj.meta
+                │   │       ├── bush05.obj
+                │   │       ├── bush05.obj.meta
+                │   │       ├── bush05_winter.obj
+                │   │       ├── bush05_winter.obj.meta
+                │   │       ├── bush06.obj
+                │   │       ├── bush06.obj.meta
+                │   │       ├── bush06_winter.obj
+                │   │       ├── bush06_winter.obj.meta
+                │   │       ├── bush07.obj
+                │   │       ├── bush07.obj.meta
+                │   │       ├── bush08.obj
+                │   │       └── bush08.obj.meta
+                │   ├── glTF/
+                │   │   ├── bushes.meta
+                │   │   ├── grass.meta
+                │   │   ├── trees.meta
+                │   │   ├── trees/
+                │   │   │   ├── tree01.glb
+                │   │   │   ├── tree01.glb.meta
+                │   │   │   ├── tree01_winter.glb
+                │   │   │   ├── tree01_winter.glb.meta
+                │   │   │   ├── tree02.glb
+                │   │   │   ├── tree02.glb.meta
+                │   │   │   ├── tree02_winter.glb
+                │   │   │   ├── tree02_winter.glb.meta
+                │   │   │   ├── tree03.glb
+                │   │   │   ├── tree03.glb.meta
+                │   │   │   ├── tree03_winter.glb
+                │   │   │   ├── tree03_winter.glb.meta
+                │   │   │   ├── tree04.glb
+                │   │   │   ├── tree04.glb.meta
+                │   │   │   ├── tree04_winter.glb
+                │   │   │   ├── tree04_winter.glb.meta
+                │   │   │   ├── tree05.glb
+                │   │   │   ├── tree05.glb.meta
+                │   │   │   ├── tree05_winter.glb
+                │   │   │   ├── tree05_winter.glb.meta
+                │   │   │   ├── tree06.glb
+                │   │   │   ├── tree06.glb.meta
+                │   │   │   ├── tree06_winter.glb
+                │   │   │   ├── tree06_winter.glb.meta
+                │   │   │   ├── tree07.glb
+                │   │   │   ├── tree07.glb.meta
+                │   │   │   ├── tree08.glb
+                │   │   │   └── tree08.glb.meta
+                │   │   ├── grass/
+                │   │   │   ├── grass01.glb
+                │   │   │   ├── grass01.glb.meta
+                │   │   │   ├── grass02.glb
+                │   │   │   ├── grass02.glb.meta
+                │   │   │   ├── grass03.glb
+                │   │   │   ├── grass03.glb.meta
+                │   │   │   ├── grass04.glb
+                │   │   │   ├── grass04.glb.meta
+                │   │   │   ├── grass05.glb
+                │   │   │   ├── grass05.glb.meta
+                │   │   │   ├── grass06.glb
+                │   │   │   ├── grass06.glb.meta
+                │   │   │   ├── grass07.glb
+                │   │   │   ├── grass07.glb.meta
+                │   │   │   ├── grass08.glb
+                │   │   │   ├── grass08.glb.meta
+                │   │   │   ├── grass09.glb
+                │   │   │   ├── grass09.glb.meta
+                │   │   │   ├── grass_bush.glb
+                │   │   │   ├── grass_bush.glb.meta
+                │   │   │   ├── grass_patch.glb
+                │   │   │   ├── grass_patch.glb.meta
+                │   │   │   ├── grass_patch_corner.glb
+                │   │   │   └── grass_patch_corner.glb.meta
+                │   │   └── bushes/
+                │   │       ├── bush01.glb
+                │   │       ├── bush01.glb.meta
+                │   │       ├── bush01_winter.glb
+                │   │       ├── bush01_winter.glb.meta
+                │   │       ├── bush02.glb
+                │   │       ├── bush02.glb.meta
+                │   │       ├── bush02_winter.glb
+                │   │       ├── bush02_winter.glb.meta
+                │   │       ├── bush03.glb
+                │   │       ├── bush03.glb.meta
+                │   │       ├── bush03_winter.glb
+                │   │       ├── bush03_winter.glb.meta
+                │   │       ├── bush04.glb
+                │   │       ├── bush04.glb.meta
+                │   │       ├── bush04_winter.glb
+                │   │       ├── bush04_winter.glb.meta
+                │   │       ├── bush05.glb
+                │   │       ├── bush05.glb.meta
+                │   │       ├── bush05_winter.glb
+                │   │       ├── bush05_winter.glb.meta
+                │   │       ├── bush06.glb
+                │   │       ├── bush06.glb.meta
+                │   │       ├── bush06_winter.glb
+                │   │       ├── bush06_winter.glb.meta
+                │   │       ├── bush07.glb
+                │   │       ├── bush07.glb.meta
+                │   │       ├── bush08.glb
+                │   │       └── bush08.glb.meta
+                │   └── FBX/
+                │       ├── bushes.meta
+                │       ├── grass.meta
+                │       ├── trees.meta
+                │       ├── trees/
+                │       │   ├── tree01.fbx
+                │       │   ├── tree01.fbx.meta
+                │       │   ├── tree01_winter.fbx
+                │       │   ├── tree01_winter.fbx.meta
+                │       │   ├── tree02.fbx
+                │       │   ├── tree02.fbx.meta
+                │       │   ├── tree02_winter.fbx
+                │       │   ├── tree02_winter.fbx.meta
+                │       │   ├── tree03.fbx
+                │       │   ├── tree03.fbx.meta
+                │       │   ├── tree03_winter.fbx
+                │       │   ├── tree03_winter.fbx.meta
+                │       │   ├── tree04.fbx
+                │       │   ├── tree04.fbx.meta
+                │       │   ├── tree04_winter.fbx
+                │       │   ├── tree04_winter.fbx.meta
+                │       │   ├── tree05.fbx
+                │       │   ├── tree05.fbx.meta
+                │       │   ├── tree05_winter.fbx
+                │       │   ├── tree05_winter.fbx.meta
+                │       │   ├── tree06.fbx
+                │       │   ├── tree06.fbx.meta
+                │       │   ├── tree06_winter.fbx
+                │       │   ├── tree06_winter.fbx.meta
+                │       │   ├── tree07.fbx
+                │       │   ├── tree07.fbx.meta
+                │       │   ├── tree08.fbx
+                │       │   └── tree08.fbx.meta
+                │       ├── grass/
+                │       │   ├── grass01.fbx
+                │       │   ├── grass01.fbx.meta
+                │       │   ├── grass02.fbx
+                │       │   ├── grass02.fbx.meta
+                │       │   ├── grass03.fbx
+                │       │   ├── grass03.fbx.meta
+                │       │   ├── grass04.fbx
+                │       │   ├── grass04.fbx.meta
+                │       │   ├── grass05.fbx
+                │       │   ├── grass05.fbx.meta
+                │       │   ├── grass06.fbx
+                │       │   ├── grass06.fbx.meta
+                │       │   ├── grass07.fbx
+                │       │   ├── grass07.fbx.meta
+                │       │   ├── grass08.fbx
+                │       │   ├── grass08.fbx.meta
+                │       │   ├── grass09.fbx
+                │       │   ├── grass09.fbx.meta
+                │       │   ├── grass_bush.fbx
+                │       │   ├── grass_bush.fbx.meta
+                │       │   ├── grass_patch.fbx
+                │       │   ├── grass_patch.fbx.meta
+                │       │   ├── grass_patch_corner.fbx
+                │       │   └── grass_patch_corner.fbx.meta
+                │       └── bushes/
+                │           ├── bush01.fbx
+                │           ├── bush01.fbx.meta
+                │           ├── bush01_winter.fbx
+                │           ├── bush01_winter.fbx.meta
+                │           ├── bush02.fbx
+                │           ├── bush02.fbx.meta
+                │           ├── bush02_winter.fbx
+                │           ├── bush02_winter.fbx.meta
+                │           ├── bush03.fbx
+                │           ├── bush03.fbx.meta
+                │           ├── bush03_winter.fbx
+                │           ├── bush03_winter.fbx.meta
+                │           ├── bush04.fbx
+                │           ├── bush04.fbx.meta
+                │           ├── bush04_winter.fbx
+                │           ├── bush04_winter.fbx.meta
+                │           ├── bush05.fbx
+                │           ├── bush05.fbx.meta
+                │           ├── bush05_winter.fbx
+                │           ├── bush05_winter.fbx.meta
+                │           ├── bush06.fbx
+                │           ├── bush06.fbx.meta
+                │           ├── bush06_winter.fbx
+                │           ├── bush06_winter.fbx.meta
+                │           ├── bush07.fbx
+                │           ├── bush07.fbx.meta
+                │           ├── bush08.fbx
+                │           └── bush08.fbx.meta
+                └── Materials/
+                    ├── M_Tree01_Fall.mat
+                    ├── M_Tree01_Fall.mat.meta
+                    ├── M_Tree02_Fall.mat
+                    ├── M_Tree02_Fall.mat.meta
+                    ├── M_Tree03_Fall.mat
+                    ├── M_Tree03_Fall.mat.meta
+                    ├── M_Tree04_Fall.mat
+                    ├── M_Tree04_Fall.mat.meta
+                    ├── M_Tree05_Fall.mat
+                    ├── M_Tree05_Fall.mat.meta
+                    ├── M_Tree06_Fall.mat
+                    ├── M_Tree06_Fall.mat.meta
+                    ├── M_Tree07_Fall.mat
+                    ├── M_Tree07_Fall.mat.meta
+                    ├── M_Tree08_Fall.mat
+                    └── M_Tree08_Fall.mat.meta

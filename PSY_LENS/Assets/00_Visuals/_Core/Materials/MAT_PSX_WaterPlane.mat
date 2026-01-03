@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MAT_PSX_WaterPlane
+  m_Shader: {fileID: 4800000, guid: 0b469062c4c147f43b35b5aa70cf198d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _USESPECMASK_ON
+  - _USEWOBBLE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: _WaterSparkleThreshold
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c836bd60eaacc5446b0255b48a1acf4d, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecMask:
+        m_Texture: {fileID: 2800000, guid: b0f2a4502bc938048b69b4ae9bccd82a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1
+    - _AmplitudeMax: 0.253
+    - _AmplitudeMin: 0.072
+    - _ColorSteps: 31.2
+    - _Contrast: 1
+    - _Cutoff: 0.716
+    - _DepthFadeDistance: 0.07
+    - _DistortBaseRange: 0.688
+    - _DistortStrength: 0.427
+    - _DitherStrength: 0.391
+    - _EnableSpec: 1
+    - _Exposure: 1.085
+    - _FlickerAmount: 0
+    - _FlickerSpeed: 0
+    - _FrequencyMax: 4.96
+    - _FrequencyMin: 3.81
+    - _NormalWaveStrength: 1.728
+    - _ReflectionFresnelPower: 1.34
+    - _ReflectionStrength: 0.69
+    - _RippleDensity: 0.639
+    - _RippleFalloff: 2.21
+    - _RippleFrequency: 12.48
+    - _RippleSpeed: 1.86
+    - _ScrollSpeedX: 0.05
+    - _ScrollSpeedY: 0.1
+    - _ShapeSize: 0.64
+    - _SpecHeightThreshold: 0.012
+    - _SpecIntensity: 1
+    - _SpecMaskStrength: 1.011
+    - _SpecNoiseAmount: 1
+    - _SpecPower: 1
+    - _SpecStrength: 0.94
+    - _Speed: 1.29
+    - _TimeChoppiness: 0
+    - _UseAlphaClip: 0
+    - _UseColorSteps: 0
+    - _UseDistortion: 1
+    - _UseDither: 0
+    - _UseSparkle: 1
+    - _UseSpecMask: 1
+    - _UseSpecular: 1
+    - _UseWobble: 1
+    - _WaterMovementStrength: 1.338
+    - _WaterPixelation: 0
+    - _WaterSparkleIntensity: 0.275
+    - _WaterSparkleScale: 58
+    - _WaterSparkleSpeed: 7.31
+    - _WaterSparkleThreshold: 0.08
+    - _WaterSpecAlpha: 0.722
+    - _WaterSpecFadeRange: 1
+    - _WaterSpecHeightThreshold: 0.045
+    - _WaterSpecIntensity: 0.405
+    - _WaterSpecPower: 61.5
+    - _WaveAmplitude: 0.042
+    - _WaveFrequency: 2.23
+    - _WaveMaxAmplitude: 0.133
+    - _WaveMaxFrequency: 6.79
+    - _WaveMinAmplitude: 0.019
+    - _WaveMinFrequency: 4.31
+    - _WaveMode: 1
+    - _WavePixelation: 0
+    - _WaveSpeed: 1.57
+    - _WaveTimeChoppiness: 0
+    - _WobblePixels: 12.06
+    m_Colors:
+    - _Color: {r: 0.46754462, g: 0.75471693, b: 0.5637227, a: 1}
+    - _ReflectionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WaterSpecColor: {r: 0, g: 1, b: 0.86274505, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
