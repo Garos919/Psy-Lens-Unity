@@ -1,0 +1,43 @@
+name: Enforce CODEOWNERS per branch
+
+on:
+  push:
+    branches: [main, develop]
+
+permissions:
+  contents: write
+
+jobs:
+  enforce:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Enforce CODEOWNERS content
+        shell: bash
+        run: |
+          set -e
+
+          branch="${GITHUB_REF_NAME}"
+
+          if [ "$branch" = "main" ]; then
+            expected='* @Garos919'
+          elif [ "$branch" = "develop" ]; then
+            expected='* @Garos919 @IntrProgrammer @MrMaRc0s @sofianna12'
+          else
+            exit 0
+          fi
+
+          mkdir -p .github
+          printf "%s\n" "$expected" > .github/CODEOWNERS
+
+          if git diff --quiet; then
+            exit 0
+          fi
+
+          git config user.name "psylens-bot"
+          git config user.email "psylens-bot@users.noreply.github.com"
+          git add .github/CODEOWNERS
+          git commit -m "Enforce CODEOWNERS for $branch"
+          git push

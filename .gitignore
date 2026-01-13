@@ -18,6 +18,8 @@
 *.user
 *.pidb
 *.booproj
+*.test
+*.draft
 
 # OS files
 .DS_Store
