@@ -33,15 +33,12 @@ jobs:
         run: |
           set -e
 
-          # main pushes: read config from BEFORE commit (pre-push state)
-          # other branches: read config from origin/main
           if [ "$BRANCH" = "main" ]; then
             REF="$BEFORE"
           else
             REF="origin/main"
           fi
 
-          # Extract trusted config into a temp file
           git show "${REF}:.github/psylens-access.json" > /tmp/psylens-access.json 2>/dev/null || true
 
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
@@ -49,8 +46,7 @@ jobs:
 
           path = "/tmp/psylens-access.json"
           if not os.path.exists(path) or os.path.getsize(path) == 0:
-            print("authorized=no")
-            sys.exit(0)
+            print("authorized=no"); sys.exit(0)
 
           cfg = json.load(open(path, "r", encoding="utf-8"))
           director = cfg["director"]
@@ -87,7 +83,6 @@ jobs:
           AFTER: ${{ github.sha }}
         run: |
           set -e
-          echo "Unauthorized push by $GITHUB_ACTOR to $BRANCH. Reverting $BEFORE..$AFTER"
 
           git config user.name "psylens-guard"
           git config user.email "psylens-guard@users.noreply.github.com"
