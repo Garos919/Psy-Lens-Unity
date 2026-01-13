@@ -2,7 +2,11 @@ name: Enforce CODEOWNERS per branch
 
 on:
   push:
-    branches: [main, develop]
+    branches:
+      - main
+      - develop
+      - "task/**"
+      - "tag/**"
 
 permissions:
   contents: write
@@ -19,18 +23,54 @@ jobs:
         run: |
           set -e
 
-          branch="${GITHUB_REF_NAME}"
-
-          if [ "$branch" = "main" ]; then
-            expected='* @Garos919'
-          elif [ "$branch" = "develop" ]; then
-            expected='* @Garos919 @IntrProgrammer @MrMaRc0s @sofianna12'
-          else
-            exit 0
+          CONFIG=".github/psylens-access.json"
+          if [ ! -f "$CONFIG" ]; then
+            echo "Missing $CONFIG"
+            exit 1
           fi
 
-          mkdir -p .github
-          printf "%s\n" "$expected" > .github/CODEOWNERS
+          branch="${GITHUB_REF_NAME}"
+
+          python3 - <<'PY'
+          import json, os, re, sys
+
+          cfg = json.load(open(".github/psylens-access.json"))
+          director = cfg["director"]
+          coords = cfg.get("coordinators", [])
+          tag_map = cfg.get("tag_map", {})
+
+          branch = os.environ["GITHUB_REF_NAME"]
+
+          def at(u): return "@"+u
+          director_at = at(director)
+          coords_at = " ".join(at(u) for u in coords)
+
+          expected = None
+
+          if branch == "main":
+            expected = f"* {director_at}"
+
+          elif branch == "develop":
+            expected = f"* {director_at} {coords_at}".strip()
+
+          elif branch.startswith("task/"):
+            expected = f"* {director_at} {coords_at}".strip()
+
+          else:
+            m = re.match(r"^tag\/\d{3}-[a-z0-9]+(?:-[a-z0-9]+)*\/([a-z0-9]+)$", branch)
+            if m:
+              tag = m.group(1)
+              owner = tag_map.get(tag)
+              if not owner:
+                sys.exit(1)
+              expected = f"* {director_at} {coords_at} {at(owner)}".strip()
+
+          if expected is None:
+            sys.exit(0)
+
+          os.makedirs(".github", exist_ok=True)
+          open(".github/CODEOWNERS", "w", encoding="utf-8").write(expected + "\n")
+          PY
 
           if git diff --quiet; then
             exit 0
