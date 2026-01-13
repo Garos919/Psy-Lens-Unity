@@ -21,15 +21,38 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Decide if push is authorized
+      - name: Fetch main for trusted config
+        run: git fetch origin main --depth=1
+
+      - name: Decide if push is authorized (trusted config)
         id: auth
         shell: bash
+        env:
+          BRANCH: ${{ github.ref_name }}
+          BEFORE: ${{ github.event.before }}
         run: |
           set -e
-          python3 - <<'PY' >> "$GITHUB_OUTPUT"
-          import json, os, re
 
-          cfg = json.load(open(".github/psylens-access.json"))
+          # main pushes: read config from BEFORE commit (pre-push state)
+          # other branches: read config from origin/main
+          if [ "$BRANCH" = "main" ]; then
+            REF="$BEFORE"
+          else
+            REF="origin/main"
+          fi
+
+          # Extract trusted config into a temp file
+          git show "${REF}:.github/psylens-access.json" > /tmp/psylens-access.json 2>/dev/null || true
+
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, re, sys
+
+          path = "/tmp/psylens-access.json"
+          if not os.path.exists(path) or os.path.getsize(path) == 0:
+            print("authorized=no")
+            sys.exit(0)
+
+          cfg = json.load(open(path, "r", encoding="utf-8"))
           director = cfg["director"]
           coords = cfg.get("coordinators", [])
           tag_map = cfg.get("tag_map", {})
@@ -40,13 +63,10 @@ jobs:
           def eq(a,b): return str(a).lower() == str(b).lower()
 
           allowed = []
-
           if branch == "main":
             allowed = [director]
-
           elif branch == "develop" or branch.startswith("task/"):
             allowed = [director] + coords
-
           else:
             m = re.match(r"^tag\/\d{3}-[a-z0-9]+(?:-[a-z0-9]+)*\/([a-z0-9]+)$", branch)
             if m:
@@ -55,8 +75,7 @@ jobs:
               if owner:
                 allowed = [director] + coords + [owner]
 
-          authorized = any(eq(actor, u) for u in allowed)
-          print("authorized=" + ("yes" if authorized else "no"))
+          print("authorized=" + ("yes" if any(eq(actor,u) for u in allowed) else "no"))
           PY
 
       - name: Revert unauthorized pushes
@@ -68,16 +87,13 @@ jobs:
           AFTER: ${{ github.sha }}
         run: |
           set -e
-
           echo "Unauthorized push by $GITHUB_ACTOR to $BRANCH. Reverting $BEFORE..$AFTER"
 
           git config user.name "psylens-guard"
           git config user.email "psylens-guard@users.noreply.github.com"
 
           commits="$(git rev-list --reverse "$BEFORE..$AFTER" || true)"
-          if [ -z "$commits" ]; then
-            exit 1
-          fi
+          [ -n "$commits" ] || exit 1
 
           for c in $commits; do
             git revert --no-edit "$c" || { git revert --abort; exit 1; }
